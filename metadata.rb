@@ -8,7 +8,7 @@ issues_url 'https://github.com/sturdycloud/sturdy_ssm_agent-cookbook/issues'
 source_url 'https://github.com/sturdycloud/sturdy_ssm_agent-cookbook'
 version '2.0.0'
 
-chef_version '>= 12.1' if respond_to?(:chef_version)
+chef_version '>= 11.0' if respond_to?(:chef_version)
 %w(amazon redhat debian ubuntu suse).each do |p|
   supports p
 end
